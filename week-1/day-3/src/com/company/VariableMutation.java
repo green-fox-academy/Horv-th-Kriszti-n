@@ -42,6 +42,12 @@ public class VariableMutation {
     System.out.println(g);
 
 
+    int h = 135798745;
+    // tell if it has 11 as a divisor (print as a boolean)
+        boolean h1 = h % 11 == 0;
+        System.out.println(h1);
+
+
     int i1 = 10;
     int i2 = 3;
     // tell if i1 is higher than i2 squared and smaller than i2 cubed (print as a boolean)
@@ -49,9 +55,18 @@ public class VariableMutation {
     System.out.println(i);
 
 
+    int j = 1521;
+    // tell if j is dividable by 3 or 5 (print as a boolean)
+    if (j % 3 == 0)
+        System.out.println("true");
+    else
+        System.out.println("false");
 
 
+    String k = "Apple";
+    //fill the k variable with its content 4 times
 
+        System.out.println(k);
 
     }
 
