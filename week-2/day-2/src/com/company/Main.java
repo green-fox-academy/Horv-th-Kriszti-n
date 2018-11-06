@@ -28,5 +28,7 @@ public class Main {
         engHunDictionary.put("coffee", "kávé");
 
         System.out.println(engHunDictionary.get("coffee"));
+
+
     }
 }
