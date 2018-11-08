@@ -12,10 +12,15 @@ public class RainbowBoxFunction {
         // The square size, and the fill color,
         // and draws a square of that size and color to the center of the canvas.
         // Create a loop that fills the canvas with rainbow colored squares.
-        int newSize = 320;
-        for (int i = newSize; i >= 0; i--){
+        int newSize = 0;
+        for (int i = newSize; i < 320; i++){
             getRainbow(graphics, newSize);
-            newSize -= 10;
+            newSize++;
+            /* int newSize = 0;
+               for (int i = newSize; i > 0; i--){         <--- Visually this solution is better, but in this case
+               getRainbow(graphics, newSize);                  you have to watch for the graphics.fillRect, because
+               newSize -= 10;                                  that cover the squares was made before, if you start your
+                                                               squares from the edges.*/
         }
     }
     public static void  getRainbow(Graphics graphics, int size){
@@ -23,8 +28,8 @@ public class RainbowBoxFunction {
         int green = (int)(Math.random() * 255);
         int blue = (int)(Math.random() * 255);
         graphics.setColor(new Color(red, green, blue));
-        graphics.fillRect((WIDTH - size) / 2, (HEIGHT - size) / 2, size, size);
-
+        graphics.drawRect((WIDTH - size) / 2, (HEIGHT - size) / 2, size, size);
+        /*graphics.fillRect((WIDTH - size) / 2, (HEIGHT - size) / 2, size, size);*/
     }
 
     // Don't touch the code below
