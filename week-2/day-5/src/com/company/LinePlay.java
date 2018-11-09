@@ -6,20 +6,20 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class Checkerboard {
+public class LinePlay {
     public static void mainDraw(Graphics graphics) {
-        // Fill the canvas with a checkerboard pattern.
-
+        int changer = 12;
+        for (int i = 0; i < changer; i++){
+            graphics.setColor(Color.MAGENTA);
+            graphics.drawLine(WIDTH-250, 0+changer, WIDTH, 0+changer*2);
+            graphics.setColor(Color.GREEN);
+            //graphics.drawLine();
+            //changer += 10;
+        }
 
 
     }
-    /*public static void getBoard(Graphics graphics){
-        graphics.setColor(Color.BLACK);
-        graphics.fillRect();
-        graphics.setColor(Color.WHITE);
-        graphics.fillRect();
 
-    }*/
     // Don't touch the code below
     static int WIDTH = 320;
     static int HEIGHT = 320;

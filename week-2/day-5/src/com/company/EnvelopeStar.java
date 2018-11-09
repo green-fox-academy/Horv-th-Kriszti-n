@@ -14,8 +14,8 @@ public class EnvelopeStar {
 
             graphics.setColor(Color.GREEN);
             graphics.drawLine(WIDTH/2, 0, WIDTH/2, HEIGHT);
-            graphics.drawLine(WIDTH/2,0 + changer, WIDTH/2 + changer, HEIGHT/2);
-            graphics.drawLine(WIDTH/2,0 + changer, WIDTH/2 - changer, HEIGHT/2);
+            graphics.drawLine(WIDTH/2, changer, WIDTH/2 + changer, HEIGHT/2);
+            graphics.drawLine(WIDTH/2, changer, WIDTH/2 - changer, HEIGHT/2);
             graphics.drawLine(WIDTH/2,HEIGHT - changer , WIDTH/2 - changer, HEIGHT/2);
             graphics.drawLine(WIDTH/2,HEIGHT - changer , WIDTH/2 + changer, HEIGHT/2);
             changer += 12;
