@@ -29,5 +29,14 @@ public class DrawPyramid {
             }
             System.out.println();
         }
+        for (int l = inputNumber; l > 0; l--) {
+            for (int m = 0; m >= inputNumber - l; m++) {
+                System.out.print(" ");
+            }
+            for (int n = 0; n <= l ; n++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 }
