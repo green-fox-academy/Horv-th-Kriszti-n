@@ -18,35 +18,36 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6824" />
+          <entry key="java" value="6945" />
           <entry key="txt" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6824" />
+          <entry key="JAVA" value="6945" />
           <entry key="PLAIN_TEXT" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="24" />
+          <entry key="java" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="25" />
         </counts>
       </usages-collector>
     </session>
@@ -83,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/OddEven.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
+            <state relative-caret-position="494">
               <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
             </state>
           </provider>
@@ -107,11 +108,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/PublicIndicator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="525">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/IWontCheatOnTheExams.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding>
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/com/company/PrintBigger.java" />
         <option value="$PROJECT_DIR$/src/com/company/ConditionalVariableMutation.java" />
         <option value="$PROJECT_DIR$/src/com/company/PublicIndicator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/IWontCheatOnTheExams.java" />
       </list>
     </option>
   </component>
@@ -171,11 +186,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1099" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -206,7 +221,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541496428423" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541946848139" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PublicIndicator">
+  <component name="RunManager" selected="Application.IWontCheatOnTheExams">
     <configuration name="ConditionalVariableMutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.ConditionalVariableMutation" />
       <module name="day-3" />
@@ -234,8 +250,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.OddEven" />
+    <configuration name="IWontCheatOnTheExams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.IWontCheatOnTheExams" />
       <module name="day-3" />
       <extension name="coverage">
         <pattern>
@@ -287,19 +303,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OddEven" />
       <item itemvalue="Application.OneTwoALot" />
       <item itemvalue="Application.PrintBigger" />
       <item itemvalue="Application.PublicIndicator" />
       <item itemvalue="Application.ConditionalVariableMutation" />
+      <item itemvalue="Application.IWontCheatOnTheExams" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IWontCheatOnTheExams" />
         <item itemvalue="Application.PublicIndicator" />
         <item itemvalue="Application.ConditionalVariableMutation" />
         <item itemvalue="Application.PrintBigger" />
         <item itemvalue="Application.OneTwoALot" />
-        <item itemvalue="Application.OddEven" />
       </list>
     </recent_temporary>
   </component>
@@ -322,6 +338,7 @@
       <workItem from="1541358750042" duration="27000" />
       <workItem from="1541409184715" duration="10272000" />
       <workItem from="1541494728623" duration="1792000" />
+      <workItem from="1541946482222" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="I was too slow, you have to be faster! In the Variable Mutation part was not made everything!">
       <created>1540832528961</created>
@@ -334,12 +351,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61602000" />
+    <option name="totallyTimeSpent" value="61956000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="0" />
+    <frame x="-8" y="-8" width="1551" height="879" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25167784" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2555332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,6 +524,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/OddEven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/OneTwoALot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -527,17 +552,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/OddEven.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/PublicIndicator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="525">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/PublicIndicator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/IWontCheatOnTheExams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="114">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
