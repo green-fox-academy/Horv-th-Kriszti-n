@@ -30,24 +30,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8386" />
+          <entry key="java" value="8591" />
           <entry key="txt" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8386" />
+          <entry key="JAVA" value="8591" />
           <entry key="PLAIN_TEXT" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="28" />
+          <entry key="java" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="29" />
         </counts>
       </usages-collector>
     </session>
@@ -66,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/AverageOfInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
+            <state relative-caret-position="342">
               <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
             </state>
           </provider>
@@ -84,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/OneTwoALot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="76">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -106,17 +106,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MultiplicationTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
+            <state relative-caret-position="646">
               <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/CountrFromTo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+            <state relative-caret-position="561">
+              <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -130,20 +130,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/PublicIndicator.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="285">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/ConditionalVariableMutation.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/PublicIndicator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+            <state relative-caret-position="475">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -189,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/com/company/PrintEven.java" />
         <option value="$PROJECT_DIR$/src/com/company/MultiplicationTable.java" />
         <option value="$PROJECT_DIR$/src/com/company/CountrFromTo.java" />
+        <option value="$PROJECT_DIR$/src/com/company/FizzBuzz.java" />
       </list>
     </option>
   </component>
@@ -233,7 +234,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541960662082" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541962735713" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -248,9 +249,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountrFromTo">
+  <component name="RunManager" selected="Application.FizzBuzz">
     <configuration name="CountrFromTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.CountrFromTo" />
+      <module name="day-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.FizzBuzz" />
       <module name="day-3" />
       <extension name="coverage">
         <pattern>
@@ -301,33 +315,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PublicIndicator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.PublicIndicator" />
-      <module name="day-3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.PublicIndicator" />
       <item itemvalue="Application.IWontCheatOnTheExams" />
       <item itemvalue="Application.PrintEven" />
       <item itemvalue="Application.MultiplicationTable" />
       <item itemvalue="Application.CountrFromTo" />
+      <item itemvalue="Application.FizzBuzz" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.CountrFromTo" />
         <item itemvalue="Application.MultiplicationTable" />
         <item itemvalue="Application.PrintEven" />
         <item itemvalue="Application.IWontCheatOnTheExams" />
-        <item itemvalue="Application.PublicIndicator" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +351,7 @@
       <workItem from="1541358750042" duration="27000" />
       <workItem from="1541409184715" duration="10272000" />
       <workItem from="1541494728623" duration="1792000" />
-      <workItem from="1541946482222" duration="11131000" />
+      <workItem from="1541946482222" duration="13382000" />
     </task>
     <task id="LOCAL-00001" summary="I was too slow, you have to be faster! In the Variable Mutation part was not made everything!">
       <created>1540832528961</created>
@@ -363,7 +364,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72733000" />
+    <option name="totallyTimeSpent" value="74984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1551" height="879" extended-state="0" />
@@ -554,9 +555,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/OddEven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/PrintBigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AverageOfInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/CountrFromTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MultiplicationTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
+        <state relative-caret-position="646">
           <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
         </state>
       </provider>
@@ -572,38 +601,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/AverageOfInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/OddEven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/OneTwoALot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="76">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/PrintBigger.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/CountrFromTo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="285">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
