@@ -26,6 +26,6 @@ public class WriteSingleLine {
         } catch (IOException e){
             System.out.println("Unable to write file: my-file.txt");
         }
-        System.out.println(lines);
+        System.out.println(lines);          // <--- this line is not needed for the original exercise. I wanted to see the content, thats why I wrote this.
     }
 }
