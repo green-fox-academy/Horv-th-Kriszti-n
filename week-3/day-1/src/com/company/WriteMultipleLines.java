@@ -26,7 +26,6 @@ public class WriteMultipleLines {
     public static void writeFile(String path, String word, int number){
         Path output = Paths.get(path);
         List<String> content = new ArrayList<>();
-        content.add(content.size(), word);
         for (int i = 0; i < number; i++) {
         content.add(i, word);
         }
