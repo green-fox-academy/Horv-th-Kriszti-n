@@ -11,7 +11,5 @@ public class Earth {
 
         tom.speak();
 
-
-
     }
 }

@@ -6,7 +6,7 @@ public class Account {
 
     public  void setData(int a, int b){
         this.a = a;
-        this.b = b; // Miért nem működött a videó szerint???Nem jó a This...
+        this.b = b;
     }
     public void showData(){
         System.out.println("Value of A =" + a);
