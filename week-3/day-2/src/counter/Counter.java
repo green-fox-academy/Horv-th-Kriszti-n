@@ -4,25 +4,25 @@ public class Counter {
     int counter;
     int resetNumber;
 
-    Counter(){
+    Counter() {
         this.counter = 0;
     }
-    Counter(int inputNumber){           // <--- This need If user write the number into it. If not then the default value(0) will be used.
+    Counter(int inputNumber) {           // <--- This need If user write the number into it. If not then the default value(0) will be used.
         this.counter = inputNumber;
         this.resetNumber = inputNumber;
     }
-    public void add(int number){
+    public void add(int number) {
         counter += number;
 
     }
-    public void add(){
+    public void add() {
         counter++;
 
     }
-    public int get(){
+    public int get() {
         return counter;
     }
-    public void reset(){
+    public void reset() {
         counter = resetNumber;
     }
 }

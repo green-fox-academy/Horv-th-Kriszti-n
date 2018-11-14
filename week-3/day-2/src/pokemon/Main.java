@@ -15,10 +15,10 @@ public class Main {
         Pokemon wildPokemon = new Pokemon("Oddish", "leaf", "water");
 
         // Which pokemon should Ash use?
-
-        for (i = 0; i < initializePokemons().size(); i++){
-            if (initializePokemons().get(i).isEffectiveAgainst(wildPokemon)){
-                String chosenOne = initializePokemons().get(i).name;
+        String chosenOne = "";
+        for (int i = 0; i < pokemonOfAsh.size(); i++) {
+            if (pokemonOfAsh.get(i).isEffectiveAgainst(wildPokemon)) {
+                chosenOne = pokemonOfAsh.get(i).name;
             }
         }
 
