@@ -10,6 +10,7 @@ public class Pokemon {
         this.type = type;
         this.effectiveAgainst = effectiveAgainst;
     }
+
     boolean isEffectiveAgainst(Pokemon anotherPokemon) {
         return this.effectiveAgainst.equals(anotherPokemon.type);
     }

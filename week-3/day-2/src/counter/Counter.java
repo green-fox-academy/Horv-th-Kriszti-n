@@ -11,17 +11,19 @@ public class Counter {
         this.counter = inputNumber;
         this.resetNumber = inputNumber;
     }
+
     public void add(int number) {
         counter += number;
-
     }
+
     public void add() {
         counter++;
-
     }
+
     public int get() {
         return counter;
     }
+
     public void reset() {
         counter = resetNumber;
     }
