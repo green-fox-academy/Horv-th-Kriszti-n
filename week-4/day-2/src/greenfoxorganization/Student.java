@@ -17,16 +17,12 @@ public class Student extends Person {
 
   }
 
-  public void introduce() {           // <----The superclass will call in the getIntroduce from the Student class!
-    super.introduce();
+  public void introduce() {          // <----The superclass will call in the getIntroduce from the Student class!
+    System.out.println(super.getIntroduce() + " from " + previousOrganization + " who skipped " + skippedDays + " days from the cource already.");
   }
 
   public void getGoal() {
-    System.out.println("Be a software developer.");
-  }
-
-  public String getIntroduce() {
-    return super.getIntroduce() + " from " + previousOrganization + " who skipped " + skippedDays + " days from the cource already.";
+    System.out.println("My goal is: Be a software developer.");
   }
 
   public void skipDays(int numberOfDays) {

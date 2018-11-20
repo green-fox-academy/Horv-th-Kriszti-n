@@ -16,15 +16,15 @@ public class Sponsor extends Person {
     hiredStudents = 0;
   }
 
-  public void introduce() {      // <--- this is an other solution, for the introduce method
+  public void introduce() {      // <----The superclass will call in the getIntroduce from the Student class!
     System.out.println(super.getIntroduce() + " who represents " + company + " and hired " + hiredStudents + " students so far.");
   }
 
-  public int hire() {
-    return hiredStudents++;
+  public void hire() {
+    hiredStudents++;
   }
 
   public void getGoal() {
-    System.out.println("Hire brilliant junior software developers.");
+    System.out.println("My goal is: Hire brilliant junior software developers.");
   }
 }

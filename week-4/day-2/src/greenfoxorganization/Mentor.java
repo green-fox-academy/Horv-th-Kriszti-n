@@ -15,14 +15,10 @@ public class Mentor extends Person {
   }
 
   public void getGoal() {
-    System.out.println("Educate brilliant software developers.");
+    System.out.println("My goal is: Educate brilliant software developers.");
   }
 
-  public void introduce() {
-    super.introduce();
-  }
-
-  public String getIntroduce() {
-    return super.getIntroduce() + " " + level + " mentor.";
+  public void introduce() {       // <----The superclass will call in the getIntroduce from the Student class!
+    System.out.println(super.getIntroduce() + " " + level + " mentor.");
   }
 }
