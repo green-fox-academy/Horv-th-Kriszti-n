@@ -33,7 +33,7 @@ public class MultiplicationTable {
     public static void multiTableResult(int userInput){
         int getResult = userInput;
         for (int i = 1; i <= 10; i++) {
-            System.out.println(getResult * i);
+            System.out.println(i + " * " + userInput + " = " + getResult * i);
         }
     }
 
