@@ -22,7 +22,7 @@ public class SumTest {
     list.add(7);
     list.add(8);
     list.add(9);
-    Sum tool = new Sum();     //<--- Sum class has its own automatically generated constructor
+    Sum tool = new Sum();     //<--- Sum class has its own automatically generated constructor(every class has its own one)
 
     assertEquals(45, tool.getSum(list));
   }
