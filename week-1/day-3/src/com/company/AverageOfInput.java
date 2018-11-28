@@ -37,7 +37,7 @@ public class AverageOfInput {
         return sumValue;
     }
 
-    public static float getAvgValue(int sumValue){
+    public static float getAvgValue(int sumValue) {
         return (float) (sumValue/5.0);
     }
 }

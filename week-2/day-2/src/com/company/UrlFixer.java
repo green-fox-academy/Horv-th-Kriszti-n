@@ -3,20 +3,20 @@ package com.company;
 import java.util.ArrayList;
 
 public class UrlFixer {
-    public static void main(String... args){
-        String url = "https//www.reddit.com/r/nevertellmethebots";
+  public static void main(String... args) {
+    String url = "https//www.reddit.com/r/nevertellmethebots";
 
-        // Accidentally I got the wrong URL for a funny subreddit. It's probably "odds" and not "bots"
-        // Also, the URL is missing a crutial component, find out what it is and insert it too!
-        // Try to solve it more than once using different String functions!
+    // Accidentally I got the wrong URL for a funny subreddit. It's probably "odds" and not "bots"
+    // Also, the URL is missing a crutial component, find out what it is and insert it too!
+    // Try to solve it more than once using different String functions!
 
-        url = url.replace("bots", "odds");
+    url = url.replace("bots", "odds");
 
-        String firstPart = url.substring(0, 5);
-        String secondPart = url.substring(5);
+    String firstPart = url.substring(0, 5);
+    String secondPart = url.substring(5);
 
-        firstPart = firstPart + ":";
+    firstPart = firstPart + ":";
 
-        System.out.println(firstPart + secondPart);
-    }
+    System.out.println(firstPart + secondPart);
+  }
 }

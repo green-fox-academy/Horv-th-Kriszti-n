@@ -9,7 +9,7 @@ public class GuessTheNumber {
     // of the following:
     //
     // The stored number is higher
-    // The stried number is lower
+    // The stored number is lower
     // You found the number: 8
 
     /*int input = userNumber();
@@ -18,7 +18,7 @@ public class GuessTheNumber {
     userNumber();
     getNumber(input, storedNum);*/
     int randomNumber = 1 + (int)(Math.random() * 20);
-    int userNumber;
+    int userNumber = 0;
 
     Scanner input = new Scanner(System.in);
 
