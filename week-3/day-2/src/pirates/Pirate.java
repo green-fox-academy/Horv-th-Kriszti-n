@@ -20,11 +20,9 @@ public class Pirate {
   boolean deadPirate = false;
   boolean passedOut = false;
 
-  public void drinkSomeRum(){
-    if (this.deadPirate){
+  public void drinkSomeRum() {
+    if (this.deadPirate) {
+
+    }
   }
-
-
-
-
 }
