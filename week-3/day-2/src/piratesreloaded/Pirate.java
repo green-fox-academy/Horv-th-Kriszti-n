@@ -5,7 +5,7 @@ public class Pirate extends People implements Fightable {
   int drinksHad;
   String pet = "";
 
-  Pirate() {
+  Pirate () {
     this.isAlive = true;
     this.isConscious = true;
     this.fightingPower = 3;
