@@ -12,6 +12,10 @@ public class Greeting {
     this.content = content;
   }
 
+  public Greeting() {            // <--- this constructor needed for the sixth exercise, because we needed to count the times of loading our webpage!
+    this.id = counter.getAndIncrement();
+  }
+
   public long getId() {
     return id;
   }
